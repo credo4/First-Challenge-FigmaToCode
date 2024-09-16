@@ -1,0 +1,532 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 0 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.header-buttons .connect-wallet {
+    border-radius: 42px;
+
+}
+
+.header-buttons .sign-up {
+    border: 1px solid black;
+}
+
+.sign-up {
+    color: #0E1218;
+    font-weight: 600;
+
+
+}
+
+.connect-wallet {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    width: 1200px;
+    height: 607px;
+    margin-top: 190px;
+    margin-left: 130px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #f8f8f8;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    /* font-size: 48px; */
+    /* margin: 0 0 20px; */
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 108px;
+    color: #181D28;
+}
+
+.hero-text p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: #484D56;
+}
+
+.hero-text .discover-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero-images img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.hero-images .image1 {
+    width: 287.58px;
+    height: 442.29px;
+    margin-top: 145.9px;
+    border-radius: 164px 100px 100px;
+}
+
+.collections {
+
+    padding: 60px 40px;
+    background-color: #fff;
+    margin-left: 130px;
+}
+
+.collections h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.categories .view .view-more {
+    color: #000;
+    background-color: white;
+}
+
+.categories .all {
+    background-color: #0E1218;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.categories button,
+.categories .view-more {
+    padding: 10px, 26px, 10px, 26px;
+    border-radius: 12px;
+    background-color: #E8E9EA;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.collection-cards {
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* Permet aux cartes de passer à la ligne suivante si l'espace est insuffisant */
+    justify-content: center;
+    /* Centre les cartes horizontalement */
+    padding: 20px;
+}
+
+
+.card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 282px;
+    height: 341px;
+    border-radius: 20px;
+    text-align: start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Ajoute une légère ombre pour l'effet de carte */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card img {
+    width: 258px;
+    height: auto;
+    /* display: block; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card .caption {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    /* justify-content: center; */
+    margin: 10px 0;
+    /* Centre le contenu horizontalement */
+
+}
+
+
+.card .caption svg {
+    margin-right: 5px; /* Espace entre le SVG et le texte */
+}
+.card h3 {
+    font-size: 24px;
+    /* Espace au-dessus du titre */
+    margin: 0;
+    text-align:left;
+    
+}
+
+.card p {
+    font-size: 18px;
+    margin: 0;
+    text-align: right;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.create-sell {
+    padding: 60px 40px;
+    background-color: #fff;
+    margin-left: 130px;
+}
+
+.create-sell h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+    text-align: start;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.step {
+    background-color: #E8E9EA;
+    padding: 24px;
+    border-radius: 24px;
+    text-align: start;
+    width: 282px;
+    height: 226px;
+
+}
+
+.step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.step p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.build-profile {
+    padding: 60px 40px;
+    width: 1200px;
+    height: 336px;
+    margin-left: 120px;
+    color: #fff;
+    text-align: center;
+    /* display: grid; */
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+}
+
+.build-profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    padding: 72px, 0px, 72px, 0px;
+    object-fit: cover;
+    /* Couvre toute la section */
+    z-index: -1;
+    /* Met l'image en arrière-plan */
+}
+
+.build-profile h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.build-profile p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.build-profile .sign-up-now {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 42px;
+    width: 146px;
+    height: 44px;
+    margin-left: 100px;
+}
+
+footer {
+    display: grid;
+    /* background-color: #f8f8f8; */
+    border-top: 1px solid #B8BABE;
+    padding: 32px 0px 32px 0px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.footer-info {
+    display: flex;
+
+}
+
+.footer-info p {
+    margin: 0;
+    text-align: start;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* Example for card hover effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Example for button hover effect */
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+/* Base Styles (Desktop) */
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 100px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .collections {
+        margin-left: 0;
+    }
+
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .create-sell {
+        margin-left: 0;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .build-profile {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .build-profile img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 120px;
+        padding: 40px;
+        height: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 72px;
+        line-height: 80px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-images img {
+        width: 80%;
+        height: auto;
+    }
+
+    .collections {
+        margin-left: 0;
+    }
+
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .create-sell {
+        margin-left: 0;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .build-profile {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .build-profile img {
+        width: 100%;
+        height: auto;
+    }
+}
